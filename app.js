@@ -103,5 +103,5 @@ let yearOld = () => {
 
 	let ageInSecond = Math.floor(ageInMinuteReminder / 1000);
 
-	document.querySelector("#age").innerHTML = `You are now ${ageInYear} years, ${ageInMonth} month, ${ageInDay} days, ${ageInHour} hour, ${ageInMinute} minutes and ${ageInSecond} seconds old`;
+	document.querySelector("#age").innerHTML = `You are now ${ageInYear} years, ${ageInMonth} month, ${ageInDay} days, <br> ${ageInHour} hour, ${ageInMinute} minutes and ${ageInSecond} seconds old`;
 }

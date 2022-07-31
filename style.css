@@ -1,9 +1,86 @@
 body {
-  background-color: rgba(31, 18, 14, 0.322);
+  background-image: url(./img/3d-gift-box-scene-with-clouds.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(0, 0, 0, 0.900); */
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  height: 96vh;
+  width: 96vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+form {
+  height: 10%;
+  width: 70%;
+  border: 2px solid purple;
+  border-radius: 30px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  font-size: 20px;
+  overflow: hidden;
+  height: 90%;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+button {
+  text-align: center;
+  font-size: 20px;
+  background-color: transparent;
+  height: 100%;
+  border: none;
+  outline: none;
+color: #fff;
+}
+
+button:hover {
+  border: 1px solid purple;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+#age {
+  font-size: 26px;
+  text-shadow: 0px 5px 5px purple;
+}
+
+#age:hover {
+  /* font-size: 6px; */
+  color: purple;
+  text-shadow: none;
+}
+
+.container {
+  height: 60%;
+  width: 60%;
+  background: url(./img/3d-gift-box-scene-with-clouds.jpg);
+  /* background-position: center; */
+  /* background-size: cover; */
+  border: 2px solid purple;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.container:hover{
+  background-position: center;
+  background-size: cover;
+}
+
+.sub_container,
+.timer {
+  display: flex;
 }
