@@ -2,7 +2,6 @@ body {
   background-image: url(./img/3d-gift-box-scene-with-clouds.jpg);
   background-size: cover;
   background-position: center;
-  /* background-color: rgba(0, 0, 0, 0.900); */
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -14,9 +13,22 @@ body {
   align-items: center;
 }
 
+.container {
+  height: 70%;
+  width: 60%;
+  background: url(./img/3d-gift-box-scene-with-clouds.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid purple;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 form {
   height: 10%;
-  width: 70%;
+  width: 40%;
   border: 2px solid purple;
   border-radius: 30px;
   text-align: center;
@@ -41,34 +53,34 @@ button {
   height: 100%;
   border: none;
   outline: none;
-color: #fff;
+  color: #fff;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 #age {
   font-size: 26px;
-  /* text-shadow: 0px 5px 5px purple; */
-}
-
-
-.container {
-  height: 60%;
-  width: 60%;
-  background: url(./img/3d-gift-box-scene-with-clouds.jpg);
-  background-position: center;
-  background-size: cover;
-  border: 2px solid purple;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .timer {
+  text-align: center;
+  font-size: 26px;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
 
-.inerDiv{
+.timer div{
+  margin: 0 0 0 5px;
+
+}
+
+.inerDiv {
   display: flex;
   justify-content: center;
 }

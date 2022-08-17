@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+form{
+    width: 70%;
+}
+
+input{
+  width: 60%;
+  font-size: 36px;
+}
+
+button{
+  font-size: 36px;
+}
+
+#age {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+.timer{
+    font-size: 36px;
+    text-align: center;
+}
+
+.timer div{
+    margin: 0 0 0 0;
+  
+  }
+  

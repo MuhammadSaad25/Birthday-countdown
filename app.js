@@ -70,11 +70,11 @@ let getTimeLeft = () => {
 
 	let nextBirthdayInSeconds = Math.floor(nextBirthdayInMinutesReminder / 1000);
 
-	document.querySelector("#daysLeft").innerHTML = `Your Next Birthday is in ` + "<br>";
-	document.querySelector("#day").innerHTML = nextBirthdayInDays + " D";
-	document.querySelector("#hour").innerHTML = nextBirthdayInHours + " H";
-	document.querySelector("#minute").innerHTML = nextBirthdayInMinutes + " M";
-	document.querySelector("#second").innerHTML = nextBirthdayInSeconds + " S";
+	document.querySelector("#daysLeft").innerHTML = `Countdown To Your Next Birthday` + "<br>";
+	document.querySelector("#day").innerHTML = nextBirthdayInDays + " Days";
+	document.querySelector("#hour").innerHTML = nextBirthdayInHours + " Hours";
+	document.querySelector("#minute").innerHTML = nextBirthdayInMinutes + " Minutes";
+	document.querySelector("#second").innerHTML = nextBirthdayInSeconds + " Second";
 
 	// increment
 	birthdayDateThisYear.setSeconds(birthdayDateThisYear.getSeconds() - 1);
