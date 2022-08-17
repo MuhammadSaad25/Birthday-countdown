@@ -8,31 +8,34 @@
   <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
   <title>Birthday Countdown</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mobile.css" media="(max-device-width:425px)">
   <!-- <link rel="stylesheet" href="./src/mobileStyle.css" media="(max-device-width:650px)"> -->
 </head>
 
 <body>
-    <div class="container">
-      <h2 class="title">Age Checker and Birthday Countdown</h2>
+  <div class="container">
+    <h2 class="title">Age Checker and Birthday Countdown</h2>
 
-      <form onsubmit="dateFunction(); return false" class="form">
-        <input type="date" id="dateID" placeholder="Enter your Birthday" value="1998-03-26">
-        <button type="submit">CHECK</button>
-      </form>
+    <form onsubmit="dateFunction(); return false" class="form">
+      <input type="date" id="dateID" placeholder="Enter your Birthday" value="1998-03-26">
+      <button type="submit">CHECK</button>
+    </form>
 
-      <p id="age"></p>
+    <p id="age"></p>
 
-      <div class="sub_container">
-        <div id="daysLeft"></div>
-       
-      </div>
-      <div class="timer">
+
+
+
+    <div class="timer">
+      <div id="daysLeft"></div>
+      <div class="inerDiv">
         <div id="day"></div>
         <div id="hour"></div>
         <div id="minute"></div>
         <div id="second"></div>
       </div>
     </div>
+  </div>
 
 </body>
 <script src="./app.js"></script>

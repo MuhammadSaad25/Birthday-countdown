@@ -1,0 +1,27 @@
+.container {
+    height: 90%;
+    width: 80%;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 90%;
+}
+
+input{
+  width: 60%;
+  font-size: 20px;
+}
+
+#age {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.timer{
+    font-size: 20px;
+    text-align: center;
+}

@@ -44,43 +44,31 @@ button {
 color: #fff;
 }
 
-button:hover {
-  border: 1px solid purple;
-  border-radius: 30px;
-  font-weight: bold;
-}
-
 #age {
   font-size: 26px;
-  text-shadow: 0px 5px 5px purple;
+  /* text-shadow: 0px 5px 5px purple; */
 }
 
-#age:hover {
-  /* font-size: 6px; */
-  color: purple;
-  text-shadow: none;
-}
 
 .container {
   height: 60%;
   width: 60%;
   background: url(./img/3d-gift-box-scene-with-clouds.jpg);
-  /* background-position: center; */
-  /* background-size: cover; */
+  background-position: center;
+  background-size: cover;
   border: 2px solid purple;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
-.container:hover{
-  background-position: center;
-  background-size: cover;
-}
-
-.sub_container,
 .timer {
   display: flex;
+flex-direction: column;
+}
+
+.inerDiv{
+  display: flex;
+  justify-content: center;
 }
